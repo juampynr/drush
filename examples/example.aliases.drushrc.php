@@ -358,9 +358,9 @@
 #$aliases['live'] = array(
 #    'parent' => '@server,@dev',
 #    'uri' => 'mydrupalsite.com',
-#     'target-command-specific' => array (
-#       'sql-sync' => array (
-#         'skip-tables-list' => 'comments',
-#       ),
-#     ),
+#    'command-specific' => array (
+#      'sql-dump' => array (
+#        'skip-tables-list' => 'comments',
+#      ),
+#    ),
 #  );
